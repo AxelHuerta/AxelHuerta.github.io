@@ -5,8 +5,44 @@
 
 body {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	background: #1a1b26;
 	height: 100vh;
+	font-size: 1.4em;
+}
+
+main {
+	color: #fff;
+}
+
+.code {
+	margin: 0 0 1em;
+}
+
+.comment {
+	color: #525466;
+}
+
+.keywords {
+	color: #f28ca7;
+}
+
+.normalWord {
+	color: #fff;
+}
+
+.op {
+	color: #8bdcea;
+}
+
+.string {
+	color: #a7e2a5;
+	margin-left: 5px;
+}
+
+.tab {
+	margin-left: 1em;
 }
 
 #container {

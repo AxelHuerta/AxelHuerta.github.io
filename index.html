@@ -16,90 +16,113 @@
     </head>
 
     <body>
-        <div id="container">
-            <form
-                id="search-area"
-                method="get"
-                action="https://duckduckgo.com/"
-            >
-                <label> > </label>
-                <input
-                    id="search-bar"
-                    type="search"
-                    name="q"
-                    placeholder="Search with DuckDuckGo"
-                    autofocus
-                />
-            </form>
-
-            <div id="grid-section">
-                <div id="uam" class="list">
-                    <h1>~/uam</h1>
-                    <ul>
-                        <li>
-                            <a
-                                class="link"
-                                href="https://mvirtuami.izt.uam.mx/aulas/apresencial2/"
-                                >Virtuami</a
-                            >
-                        </li>
-                        <li>
-                            <a
-                                class="link"
-                                href="https://siipi.izt.uam.mx/login"
-                                >Siipi</a
-                            >
-                        </li>
-                        <li>
-                            <a
-                                class="link"
-                                href="https://iquizayan.uam.mx:8443/sae/izt/aewbf001.omuestraframes?mod=1"
-                                >Siiuam</a
-                            >
-                        </li>
-                    </ul>
-                </div>
-
-                <div id="school" class="list">
-                    <h1>~/school</h1>
-                    <ul>
-                        <li><a href="https://www.udemy.com/">udemy</a></li>
-                        <li>
-                            <a href="https://classroom.google.com/u/1/"
-                                >classroom</a
-                            >
-                        </li>
-                        <li>
-                            <a
-                                href="https://drive.google.com/drive/u/0/folders/0AHq_TfTUJvj_Uk9PVA"
-                                >drive</a
-                            >
-                        </li>
-                    </ul>
-                </div>
-
-                <div id="mail" class="list">
-                    <h1>~/mail</h1>
-                    <ul>
-                        <li>
-                            <a href="https://mail.google.com/mail/u/0/"
-                                >gmail</a
-                            >
-                        </li>
-                        <li><a href="https://proton.me">protonmail</a></li>
-                        <li><a href="https://titlani.uam.mx">titlani</a></li>
-                    </ul>
-                </div>
-
-                <div id="others" class="list">
-                    <h1>~/others</h1>
-                    <ul>
-                        <li><a href="https://github.com/">github</a></li>
-                        <li><a href="https://www.reddit.com/">reddit</a></li>
-                        <li><a href="https://www.youtube.com/">YouTube</a></li>
-                    </ul>
-                </div>
+        <main>
+            <div class="comment">// Hello, world!</div>
+            <!-- uam -->
+            <div class="code">
+                <span class="keywords">const </span
+                ><span class="normalWord">uam</span> <span class="op">=</span>
+                <span class="keywords">[</span><br />
+                <span class="tab"></span
+                ><a
+                    href="https://mvirtuami.izt.uam.mx/aulas/apresencial2/"
+                    class="string"
+                    >'virtuami'</a
+                >,
+                <a href="https://siipi.izt.uam.mx/login" class="string"
+                    >'siipi'</a
+                >,
+                <a
+                    href="https://iquizayan.uam.mx:8443/sae/izt/aewbf001.omuestraframes?mod=1"
+                    class="string"
+                    >'siiuam'</a
+                >,
+                <a href="https://titlani.uam.mx" class="string">'titlani'</a>
+                <br />
+                <span class="keywords">]</span>
             </div>
-        </div>
+
+            <!-- google -->
+            <div class="code">
+                <span class="keywords">const </span
+                ><span class="normalWord">google</span>
+                <span class="op">=</span> <span class="keywords">[</span><br />
+                <span class="tab"></span
+                ><a href="https://mail.google.com/mail/u/0/" class="string"
+                    >'gmail'</a
+                >,
+                <a href="https://classroom.google.com/u/0/" class="string"
+                    >'classroom'</a
+                >,
+                <a href="https://drive.google.com/drive/u/0/" class="string"
+                    >'drive'</a
+                ><br />
+                <span class="keywords">]</span><br />
+            </div>
+
+            <!-- dev -->
+            <div class="code">
+                <span class="keywords">const </span
+                ><span class="normalWord">dev</span> <span class="op">=</span>
+                <span class="keywords">[</span><br />
+                <span class="tab"></span
+                ><a href="https://github.com/" class="string">'github'</a>,
+                <a href="https://www.udemy.com/" class="string">'udemy'</a>,
+                <a href="https://penpot.app" class="string">'penpot'</a>,
+                <a href="https://dribbble.com" class="string">'dribble'</a
+                ><br />
+                <span class="keywords">]</span><br />
+            </div>
+
+            <!-- ai -->
+            <div class="code">
+                <span class="keywords">const </span
+                ><span class="normalWord">ai</span> <span class="op">=</span>
+                <span class="keywords">[</span><br />
+                <span class="tab"></span
+                ><a href="https://chat.openai.com/chat" class="string"
+                    >'chatGPT'</a
+                >,
+                <a href="https://open-assistant.io/" class="string"
+                    >'Open-Assistant'</a
+                >,
+                <a href="https://colab.research.google.com" class="string"
+                    >'colab'</a
+                ><br />
+                <span class="keywords">]</span><br />
+            </div>
+
+            <!-- others -->
+            <div class="code">
+                <span class="keywords">const </span
+                ><span class="normalWord">others</span>
+                <span class="op">=</span> <span class="keywords">[</span><br />
+                <span class="tab"></span
+                ><a href="https://www.youtube.com" class="string">'youtube'</a>,
+                <a href="https://www.reddit.com" class="string">'reddit'</a>,
+                <a href="https://store.epicgames.com/es-MX/" class="string"
+                    >'epic games'</a
+                >
+                <br />
+                <span class="keywords">]</span><br />
+            </div>
+        </main>
+        <!-- <div id="container"> -->
+        <!--     <form -->
+        <!--         id="search-area" -->
+        <!--         method="get" -->
+        <!--         action="https://duckduckgo.com/" -->
+        <!--     > -->
+        <!--         <label> > </label> -->
+        <!--         <input -->
+        <!--             id="search-bar" -->
+        <!--             type="search" -->
+        <!--             name="q" -->
+        <!--             placeholder="Search with DuckDuckGo" -->
+        <!--             autofocus -->
+        <!--         /> -->
+        <!--     </form> -->
+
+        <!-- </div> -->
     </body>
 </html>
