@@ -1,3 +1,3 @@
 # Starpage
-Based on [this post](https://i.redd.it/706hrex3p2h51.png)
+Based on [this post](https://www.reddit.com/r/startpages/comments/i9z3ud/is_this_minimal_enough_for_you_folks/)
 Demo: [Starpage](https://axelhuerta.github.io/)
